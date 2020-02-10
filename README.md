@@ -37,5 +37,16 @@ https://www.python.org/downloads/release/python-364/
 	</b> </li>
 </ul>
 
+
+<strong> To generate gui file as python: </strong>
+<ul>
+ 	<li> navigate to folder of gui file and type cmd </li>
+ 	<li> in command terminal type the follow: 	</li>
+</ul>
+
+	
+ 	pyuic5 -x guiIRRDN.ui -o guiIRRD.py
+	pyuic5 -x guiIPopUp.ui -o guiIPopUp.py
+	
 <hr>
 
