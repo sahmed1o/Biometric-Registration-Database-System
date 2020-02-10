@@ -86,4 +86,14 @@ All users registered with the system can be viewed using the "show registered us
 <hr>
 
 
+<br /> <b> User Verfication with Associated ID:  </b>
+
+[TEXT].
+
+<img src="Screenshots/screen7.png"  height="400" />
+<img src="Screenshots/screen8.png"  height="400" />
+<img src="Screenshots/screen9.png"  height="400" />
+
+<hr>
+
 
