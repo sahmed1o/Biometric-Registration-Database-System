@@ -18,7 +18,7 @@ A Iris Recognition Registration Database System, that uses computer vision techn
 
 <strong> Equipment: </strong>
 <ul>
- 	<li> Laptop running program </li>
+ 	<li> Laptop/Desktop running program </li>
  	<li> High Definition camera (or mobile phone/device running camera through an RTSP server) 	</li>
 </ul>
 
