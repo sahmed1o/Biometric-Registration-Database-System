@@ -94,12 +94,27 @@ User verification is done by first scanning the users facial features using DLIB
 <img src="Screenshots/screen8.png"  height="400" />
 <img src="Screenshots/screen9.png"  height="400" />
 
-<hr>
-
 The verification process involves using ORB's image matching library. The image of the user's IRIS captured live during the verification screening is fed through the method iris_match_res() method along with the registered captured IRIS with the ID the user inputted. If there is a match using ORB's brute force matching, then the user entry for the registered user and their information will show in a dialog. The match_rate conditional statement will have to adjusted based on what video capture system is used, for stronger cameras a match rate greater then 50% will work, for weaker camera devices such as a webcam a lower value such as 35% is to be used.
 
 <img src="Screenshots/screen10.png"  height="400" />
 <img src="Screenshots/screen11.png"  height="400" />
 
-The main components have been broken up and placed into the 
+The main components have been broken up and placed into the IndividualProgs folder. This is to see the basic form of the core features that makeup this program.
 
+
+<hr>
+
+
+#  A couple of things to note:
+
+CAMERA must take high definition photos for ORB detector to find keypoints for IRIS matching.
+If camera image isnt high enough quality then the message "Image Quality is low definition, unable to verify. please use a stronger camera.", 
+will show up in the console when doing user verification.
+
+ID association is done in this project as it saves on computational power although an 
+ID number during verification is not needed for matching. The image can be iteratively compared 
+with all eyes in the filesystem until a match is found using ORB detection if the code is modified.
+
+An ID associated with the iris captured is beneficial with a database comprised of over 
+1000 people who are registered, which is why for this project that route was taken. The
+code can be easily modified to ignore id input and just pattern match with all registered user iris's. 
