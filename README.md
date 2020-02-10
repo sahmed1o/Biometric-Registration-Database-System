@@ -7,6 +7,26 @@ A Iris Recognition Registration Database System, that uses computer vision techn
 
 <hr>
 
+
+<br /> <b> Registering the IRIS:  </b>
+
+Once the register button is pressed, the program will halt and open a prompt asking for user input. The input is stored along with the image. The captured IRIS portfolios are stored under the database folder.
+
+<img src="Screenshots/screen2.png"  height="400" />
+<img src="Screenshots/screen3.png"  height="400" />
+
+<hr>
+
+
+<br /> <b> Viewing Registered Users in the Database:  </b>
+
+All users registered with the system can be viewed using the "show registered users" button. This will open up a table of all registered users with each cell corresponding to the inputted data from the individual users registered. The IRIS registered by each user can also be viewed by pressing the "INFO" button configured in the cell of the table.
+
+<img src="Screenshots/screen4.png"  height="400" />
+<img src="Screenshots/screen5.png"  height="400" />
+
+<hr>
+
 <strong> Python Editor Used:  </strong>
 <ul>
  	<li> IDLE </li>
