@@ -6,6 +6,25 @@ A Iris Recognition Registration Database System, that uses computer vision techn
 
 <hr>
 
+<strong> Python Editor Used:  </strong>
+<ul>
+ 	<li> IDLE </li>
+</ul>
+
+<strong> Platform Test:  </strong>
+<ul>
+ 	<li> Windows </li>
+</ul>
+
+<strong> Equipment: </strong>
+<ul>
+ 	<li> Laptop running program </li>
+ 	<li> High Definition camera (or mobile phone/device running camera through an RTSP server) 	</li>
+</ul>
+
+
+<hr>
+
 <h2>Installation: Setting Up Python 3.X with OpenCV and External Libraries:</h2>
 
 <strong>1. Download python 3 here, in this case it was python-3.6.4-amd64 for windows:</strong>
@@ -66,22 +85,5 @@ All users registered with the system can be viewed using the "show registered us
 
 <hr>
 
-<strong> Python Editor Used:  </strong>
-<ul>
- 	<li> IDLE </li>
-</ul>
 
-<strong> Platform Test:  </strong>
-<ul>
- 	<li> Windows </li>
-</ul>
-
-<strong> Equipment: </strong>
-<ul>
- 	<li> Laptop running program </li>
- 	<li> High Definition camera (or mobile phone/device running camera through an RTSP server) 	</li>
-</ul>
-
-
-<hr>
 
