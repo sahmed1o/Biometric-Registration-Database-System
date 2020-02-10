@@ -88,7 +88,7 @@ All users registered with the system can be viewed using the "show registered us
 
 <br /> <b> User Verfication with Associated ID:  </b>
 
-User verification is done by first scanning the users face using DLIBS landmark detector, and pinpointing where the eyes are located. The camera then captures the eyes and hones in on the IRIS. When verifiying a prompt asking for user ID will show. Once the user's ID is inputted, the captured IRIS is scanned and pattern matched with the registered ID with the same ID as the user input.
+User verification is done by first scanning the users facial features using DLIBS landmark detector, and pinpointing where the eyes are located. The camera then captures the eyes and hones in on the IRIS. When verifiying, a prompt asking for user ID will show. Once the user's ID is inputted, the captured IRIS is scanned and pattern matched with the registered ID with the same ID as the user input.
 
 <img src="Screenshots/screen7.png"  height="400" />
 <img src="Screenshots/screen8.png"  height="400" />
@@ -96,4 +96,10 @@ User verification is done by first scanning the users face using DLIBS landmark 
 
 <hr>
 
+The verification process involves using ORB's image matching library. The image of the user's IRIS captured live during the verification screening is fed through the method iris_match_res() method along with the registered captured IRIS with the ID the user inputted. If there is a match using ORB's brute force matching, then the user entry for the registered user and their information will show in a dialog. The match_rate conditional statement will have to adjusted based on what video capture system is used, for stronger cameras a match rate greater then 50% will work, for weaker camera devices such as a webcam a lower value such as 35% is to be used.
+
+<img src="Screenshots/screen10.png"  height="400" />
+<img src="Screenshots/screen11.png"  height="400" />
+
+The main components have been broken up and placed into the 
 
