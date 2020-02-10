@@ -107,14 +107,21 @@ The main components have been broken up and placed into the IndividualProgs fold
 
 #  A couple of things to note:
 
-CAMERA must take high definition photos for ORB detector to find keypoints for IRIS matching.
-If camera image isnt high enough quality then the message "Image Quality is low definition, unable to verify. please use a stronger camera.", 
-will show up in the console when doing user verification.
-
+<ul>
+ <li>
+The CAMERA must take high definition photos for ORB detector to find keypoints for IRIS matching.
+If camera image isnt high enough quality then the message "Image Quality is low definition, unable to verify. please use a stronger camera.", will show up in the console when doing user verification.
+ </li>
+	
+ <li>	
 ID association is done in this project as it saves on computational power although an 
 ID number during verification is not needed for matching. The image can be iteratively compared 
 with all eyes in the filesystem until a match is found using ORB detection if the code is modified.
+ </li>
 
+<li>
 An ID associated with the iris captured is beneficial with a database comprised of over 
 1000 people who are registered, which is why for this project that route was taken. The
 code can be easily modified to ignore id input and just pattern match with all registered user iris's. 
+ <li>
+</ul>
