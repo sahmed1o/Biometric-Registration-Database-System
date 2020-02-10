@@ -7,7 +7,22 @@
 
 <hr>
 
-<strong> Python Editor Used: IDLE </strong>
+<strong> Python Editor Used:  </strong>
+<ul>
+ 	<li> IDLE </li>
+</ul>
+
+<strong> Platform Test:  </strong>
+<ul>
+ 	<li> Windows </li>
+</ul>
+
+<strong> Equipment: </strong>
+<ul>
+ 	<li> Laptop running program </li>
+ 	<li> High Definition camera (or mobile phone/device running camera through an RTSP server) 	</li>
+</ul>
+
 
 <hr>
 
@@ -41,7 +56,7 @@ https://www.python.org/downloads/release/python-364/
 <strong> To generate gui file as python: </strong>
 <ul>
  	<li> navigate to folder of gui file and type cmd </li>
- 	<li> in command terminal type the follow: 	</li>
+ 	<li> in command terminal type the following: 	</li>
 </ul>
 
 	
