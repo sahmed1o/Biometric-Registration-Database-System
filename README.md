@@ -123,5 +123,5 @@ with all eyes in the filesystem until a match is found using ORB detection if th
 An ID associated with the iris captured is beneficial with a database comprised of over 
 1000 people who are registered, which is why for this project that route was taken. The
 code can be easily modified to ignore id input and just pattern match with all registered user iris's. 
- <li>
+ </li>
 </ul>
