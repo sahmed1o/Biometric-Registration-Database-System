@@ -94,12 +94,12 @@ User verification is done by first scanning the users facial features using DLIB
 <img src="Screenshots/screen8.png"  height="400" />
 <img src="Screenshots/screen9.png"  height="400" />
 
-The verification process involves using ORB's image matching library. The image of the user's IRIS captured live during the verification screening is fed through the method iris_match_res() method along with the registered captured IRIS with the ID the user inputted. If there is a match using ORB's brute force matching, then the user entry for the registered user and their information will show in a dialog. The match_rate conditional statement will have to be adjusted based on what video capture system is used, for stronger cameras a match rate greater then 50% will work, for weaker camera devices such as a webcam a lower value such as 35% is to be used.
+The verification process involves using ORB's image matching library. The image of the user's IRIS captured live during the verification screening is fed through the method iris_match_res(), along with the registered captured IRIS with the ID the user inputted. If there is a match using ORB's brute force matching, then the user entry for the registered user and their information will be shown in a dialog. The match_rate conditional statement will have to be adjusted based on what video capture system is used. For stronger cameras, a match rate greater then 50% will work. For weaker camera devices such as a wireless webcam, a lower value such as 35% should be considered.
 
 <img src="Screenshots/screen10.png"  height="400" />
 <img src="Screenshots/screen11.png"  height="400" />
 
-The main components have been broken up and placed into the IndividualProgs folder. This is to see the basic form of the core features that makeup this program.
+The main components have been broken up and placed into the "IndividualProgs" folder. This is to see the basic form of the core features that makeup this program.
 
 
 <hr>
