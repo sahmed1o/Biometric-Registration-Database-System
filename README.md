@@ -88,7 +88,7 @@ All users registered with the system can be viewed using the "show registered us
 
 <br /> <b> User Verfication with Associated ID:  </b>
 
-[TEXT].
+User verification is done by first scanning the users face using DLIBS landmark detector, and pinpointing where the eyes are located. The camera then captures the eyes and hones in on the IRIS. When verifiying a prompt asking for user ID will show. Once the user's ID is inputted, the captured IRIS is scanned and pattern matched with the registered ID with the same ID as the user input.
 
 <img src="Screenshots/screen7.png"  height="400" />
 <img src="Screenshots/screen8.png"  height="400" />
