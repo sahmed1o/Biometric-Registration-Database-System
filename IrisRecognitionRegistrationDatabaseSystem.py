@@ -578,7 +578,7 @@ class Ui_MainWindow(QWidget):
                 #if using RTSP IP Camera (for testing an android device camera was used)
                 #This segment can be commented out or removed if using a webcamera connected to the device running this program, uncomment line before these two
                 #os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;udp"
-                #self.cap = cv2.VideoCapture("rtsp://192.168.2.18:5540/ch0", cv2.CAP_FFMPEG)
+                #self.cap = cv2.VideoCapture("rtsp://YourAddress", cv2.CAP_FFMPEG)
                 #This segment can be commented out or removed if using a webcamera connected to the device running this program, uncomment line before these two
 
                 
@@ -801,7 +801,7 @@ class Ui_MainWindow(QWidget):
                 #if using RTSP IP Camera (for testing an android device camera was used)
                 #This segment can be commented out or removed if using a webcamera connected to the device running this program, uncomment line before these two
                 #os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;udp"
-                #self.cap = cv2.VideoCapture("rtsp://192.168.2.18:5540/ch0", cv2.CAP_FFMPEG)
+                #self.cap = cv2.VideoCapture("rtsp://YourAddress", cv2.CAP_FFMPEG)
                 #This segment can be commented out or removed if using a webcamera connected to the device running this program, uncomment line before these two
 
                 
