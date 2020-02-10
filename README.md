@@ -33,8 +33,8 @@ https://www.python.org/downloads/release/python-364/
  	<li> CMAKE (pip install cmake - this is required to install dlib) 	</li>
  	<li> DLIB (pip install dlib) 	</li>
  	<li> DateTime (pip install datetime) 	</li>
- <li> X SIFT (pip install opencv-contrib-python) - REMOVED, the library is patented so its no longer used for Iris Matching but opencv-contrib-python has other useful libraries so its worth installing
-	</li>
+ <li> <b>(X) SIFT (pip install opencv-contrib-python) - REMOVED, the library is patented so its no longer used for Iris Matching but opencv-contrib-python has other useful libraries so its worth installing
+	</b> </li>
 </ul>
 
 <hr>
