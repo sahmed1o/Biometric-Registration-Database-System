@@ -5,7 +5,7 @@ An Iris Recognition Registration System, that uses computer vision technology to
 <img src="Screenshots/screen1.png"  height="400" />
 
 <hr>
-
+ 
 <strong> Python Editor Used:  </strong>
 <ul>
  	<li> IDLE </li>
